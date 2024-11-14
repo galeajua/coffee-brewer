@@ -2,17 +2,25 @@ import requests
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
 import pandas as pd
+from io import StringIO
+
+# create class to load/save csv data
 
 class DataLoader:
     def __init__(self, source_url):
         self.source_url = source_url
 
-    def load_resource(self, by_strategy, identifier, attribute_name):
+    def set_driver_options(self):
         chrome_options = webdriver.ChromeOptions()
-        chrome_options.add_argument("--headless")  # Run in headless mode
-        chrome_options.add_argument("--no-sandbox")  # Optional: Helps with certain environments
-        chrome_options.add_argument("--disable-dev-shm-usage")  # Optional: Reduces resource usage
+        chrome_options.add_argument("--headless")
+        chrome_options.add_argument("--no-sandbox")
+        chrome_options.add_argument("--disable-dev-shm-usage")
+        return chrome_options
+
+    def load_resource(self, by_strategy, identifier, attribute_name):
+        chrome_options = self.set_driver_options()
         driver = webdriver.Chrome(options=chrome_options)
         driver.get(self.source_url)
 
@@ -22,22 +30,17 @@ class DataLoader:
                 EC.presence_of_element_located((by_strategy, identifier))
             )
             content = content_initial.get_attribute(attribute_name)
-            lines = content.splitlines()
-            for line in lines[:5]:  # Print the first 5 lines to check if csv structure
-                print(line)
-        except:
-            print("Element did not load in time.")
+            content_df = pd.read_csv(StringIO(content))
+        except TimeoutException:
+            print("element did not load in time")
+            content_df = None
+        except pd.errors.ParserError:
+            print("content is not in a valid csv format")
+            content_df = None
         finally:
             driver.quit()
-        return content
-    
-    def save_raw_data_locally(self, content, path):
-        with open(path, "w") as f:
-            f.write(content)
+        return content_df
 
-        return pd.read_csv(path)
-
-    # def load_resource_click(self):
 
 
 
