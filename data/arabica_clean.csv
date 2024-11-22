@@ -19,7 +19,7 @@ score,Species,Country of Origin,Altitude (m),Variety,Processing Method,Aroma,Fla
 87.33,Arabica,Ethiopia,,,,8.17,8.33,8.25,8.33,8.42,8.33,9.33,10.0,9.33,8.83,87.33,0.05,,
 87.25,Arabica,China,1450.0,Catimor,Washed / Wet,8.42,8.25,8.08,8.17,7.92,8.0,10.0,10.0,10.0,8.42,87.25,0.1,Green,Medium
 87.25,Arabica,Ethiopia,1850.0,Ethiopian Yirgacheffe,Natural / Dry,8.17,8.17,8.0,8.17,8.08,8.33,10.0,10.0,10.0,8.33,87.25,0.0,,High
-87.25,Arabica,United States,2019.0000000000002,Other,Washed / Wet,8.0,8.25,8.08,8.5,8.25,8.0,10.0,10.0,10.0,8.17,87.25,0.0,,Very High
+87.25,Arabica,United States,2019.0,Other,Washed / Wet,8.0,8.25,8.08,8.5,8.25,8.0,10.0,10.0,10.0,8.17,87.25,0.0,,Very High
 87.17,Arabica,Costa Rica,1300.0,Caturra,Washed / Wet,8.08,8.25,8.0,8.17,8.0,8.33,10.0,10.0,10.0,8.33,87.17,0.11,Green,Medium
 87.17,Arabica,Mexico,1320.0,Other,Washed / Wet,8.17,8.25,8.17,8.0,7.83,8.17,10.0,10.0,10.0,8.58,87.17,0.13,Green,Medium
 87.08,Arabica,United States,2112.0,Other,Washed / Wet,8.25,8.33,8.17,8.17,7.83,8.17,10.0,10.0,10.0,8.17,87.08,0.0,,Very High
@@ -46,7 +46,7 @@ score,Species,Country of Origin,Altitude (m),Variety,Processing Method,Aroma,Fla
 86.08,Arabica,Kenya,1754.0,SL28,Natural / Dry,8.08,8.08,8.0,8.0,7.83,8.08,10.0,10.0,10.0,8.0,86.08,0.11,Bluish-Green,High
 86.08,Arabica,Brazil,1250.0,Bourbon,Semi-washed / Semi-pulped,8.33,8.0,8.0,8.0,7.75,8.0,10.0,10.0,10.0,8.0,86.08,0.11,Blue-Green,Medium
 86.0,Arabica,Uganda,,,Semi-washed / Semi-pulped,8.08,8.08,7.83,7.92,8.08,7.92,10.0,10.0,10.0,8.08,86.00,0.0,,
-86.0,Arabica,Colombia,467.0,Caturra,Washed / Wet,7.75,7.92,7.83,8.08,8.08,8.17,10.0,10.0,10.0,8.17,86.00,0.12,Green,Low
+86.0,Arabica,Colombia,,Caturra,Washed / Wet,7.75,7.92,7.83,8.08,8.08,8.17,10.0,10.0,10.0,8.17,86.00,0.12,Green,
 86.0,Arabica,Kenya,1860.0,SL28,Washed / Wet,7.92,8.17,7.83,8.5,7.5,7.92,10.0,10.0,10.0,8.17,86.00,0.11,Green,High
 86.0,Arabica,Uganda,1650.0,Other,Washed / Wet,8.25,8.0,7.83,8.08,8.0,7.92,10.0,10.0,10.0,7.92,86.00,0.1,Blue-Green,High
 86.0,Arabica,Ethiopia,1750.0,,,7.75,8.08,8.0,8.25,8.0,8.0,10.0,10.0,10.0,7.92,86.00,0.01,,High
@@ -451,7 +451,7 @@ score,Species,Country of Origin,Altitude (m),Variety,Processing Method,Aroma,Fla
 83.17,Arabica,El Salvador,1350.0,Bourbon,Washed / Wet,7.5,7.5,7.33,7.67,8.0,7.67,10.0,10.0,10.0,7.5,83.17,0.0,Green,Medium
 83.17,Arabica,Guatemala,1500.0,Bourbon,Washed / Wet,7.5,7.75,7.5,7.83,7.58,7.5,10.0,10.0,10.0,7.5,83.17,0.11,Green,Medium
 83.17,Arabica,Guatemala,1650.0,Bourbon,Washed / Wet,7.92,7.67,7.42,7.75,7.5,7.5,10.0,10.0,10.0,7.42,83.17,0.12,Green,High
-83.17,Arabica,Kenya,250.5,SL28,Washed / Wet,7.83,7.75,7.67,7.75,7.83,8.5,9.33,9.33,9.33,7.83,83.17,0.1,Bluish-Green,Low
+83.17,Arabica,Kenya,250.05,SL28,Washed / Wet,7.83,7.75,7.67,7.75,7.83,8.5,9.33,9.33,9.33,7.83,83.17,0.1,Bluish-Green,Low
 83.17,Arabica,Thailand,800.0,,Washed / Wet,7.67,7.58,7.58,7.75,7.42,7.67,10.0,10.0,10.0,7.5,83.17,0.12,Bluish-Green,Low
 83.17,Arabica,"Tanzania, United Republic Of",1653.0,Other,Washed / Wet,7.58,7.67,7.67,7.58,7.42,7.58,10.0,10.0,10.0,7.67,83.17,0.13,Bluish-Green,High
 83.17,Arabica,Colombia,1775.0,Caturra,Washed / Wet,7.58,7.5,7.5,7.67,7.5,7.67,10.0,10.0,10.0,7.75,83.17,0.0,,High
@@ -627,7 +627,7 @@ score,Species,Country of Origin,Altitude (m),Variety,Processing Method,Aroma,Fla
 82.67,Arabica,Thailand,,Other,Washed / Wet,7.83,7.33,7.83,7.33,7.58,7.83,10.0,10.0,9.33,7.58,82.67,0.12,Bluish-Green,
 82.67,Arabica,Mexico,1100.0,Other,Washed / Wet,7.58,7.58,7.42,7.58,7.42,7.5,10.0,10.0,10.0,7.58,82.67,0.11,,Low
 82.67,Arabica,Mexico,950.0,Typica,Washed / Wet,7.5,7.58,7.58,7.58,7.42,7.42,10.0,10.0,10.0,7.58,82.67,0.12,,Low
-82.67,Arabica,Colombia,426.5,,,7.33,7.58,7.42,7.42,7.67,7.67,10.0,10.0,10.0,7.58,82.67,0.11,Green,Low
+82.67,Arabica,Colombia,,,,7.33,7.58,7.42,7.42,7.67,7.67,10.0,10.0,10.0,7.58,82.67,0.11,Green,
 82.67,Arabica,United States (Hawaii),,,,7.83,7.67,7.5,7.67,7.5,7.58,10.0,10.0,9.33,7.58,82.67,0.03,,
 82.67,Arabica,Mexico,1400.0,Blue Mountain,,7.75,7.58,7.25,7.75,7.67,7.58,10.0,10.0,10.0,7.08,82.67,0.0,,Medium
 82.67,Arabica,Colombia,1800.0,,,8.08,7.67,7.67,7.33,7.33,7.17,10.0,10.0,10.0,7.42,82.67,0.08,,High
@@ -639,7 +639,7 @@ score,Species,Country of Origin,Altitude (m),Variety,Processing Method,Aroma,Fla
 82.58,Arabica,Brazil,,,,7.42,7.42,7.5,7.33,7.25,7.67,10.0,10.0,10.0,8.0,82.58,0.0,Green,
 82.58,Arabica,Indonesia,1250.0,Typica,Semi-washed / Semi-pulped,7.83,7.58,7.42,7.33,7.42,7.5,10.0,10.0,10.0,7.5,82.58,0.13,Blue-Green,Medium
 82.58,Arabica,Thailand,800.0,,Washed / Wet,7.75,7.33,7.42,7.67,7.42,7.5,10.0,10.0,10.0,7.5,82.58,0.12,Green,Low
-82.58,Arabica,Thailand,225.5,Caturra,Washed / Wet,7.42,7.58,7.58,7.42,7.58,7.5,10.0,10.0,10.0,7.5,82.58,0.12,Blue-Green,Low
+82.58,Arabica,Thailand,,Caturra,Washed / Wet,7.42,7.58,7.58,7.42,7.58,7.5,10.0,10.0,10.0,7.5,82.58,0.12,Blue-Green,
 82.58,Arabica,"Tanzania, United Republic Of",1317.0,Other,Washed / Wet,7.75,7.42,7.33,7.5,7.58,7.5,10.0,10.0,10.0,7.5,82.58,0.12,,Medium
 82.58,Arabica,Uganda,1650.0,SL14,Natural / Dry,7.83,7.5,7.42,7.58,7.42,7.42,10.0,10.0,10.0,7.42,82.58,0.12,Green,High
 82.58,Arabica,Costa Rica,1300.0,Catuai,Washed / Wet,7.67,7.42,7.5,7.67,7.0,7.75,10.0,10.0,10.0,7.58,82.58,0.11,Green,Medium
@@ -657,10 +657,10 @@ score,Species,Country of Origin,Altitude (m),Variety,Processing Method,Aroma,Fla
 82.5,Arabica,Honduras,1400.0,Caturra,Washed / Wet,7.58,7.58,7.33,7.5,7.5,7.5,10.0,10.0,10.0,7.5,82.50,0.1,Green,Medium
 82.5,Arabica,Guatemala,4000.0,Bourbon,Washed / Wet,7.5,7.5,7.33,7.5,7.67,7.5,10.0,10.0,10.0,7.5,82.50,0.1,Green,
 82.5,Arabica,Thailand,800.0,,Washed / Wet,7.5,7.83,7.5,7.75,7.33,7.42,9.33,10.0,10.0,7.83,82.50,0.12,Green,Low
-82.5,Arabica,Thailand,225.5,Caturra,Washed / Wet,7.33,7.5,7.5,7.5,7.67,7.5,10.0,10.0,10.0,7.5,82.50,0.11,,Low
+82.5,Arabica,Thailand,,Caturra,Washed / Wet,7.33,7.5,7.5,7.5,7.67,7.5,10.0,10.0,10.0,7.5,82.50,0.11,,
 82.5,Arabica,"Tanzania, United Republic Of",1600.0,Other,Washed / Wet,7.67,7.42,7.33,7.58,7.5,7.5,10.0,10.0,10.0,7.5,82.50,0.12,Green,Medium
 82.5,Arabica,"Tanzania, United Republic Of",,Other,Washed / Wet,7.75,7.0,7.42,7.58,7.58,7.58,10.0,10.0,10.0,7.58,82.50,0.12,Bluish-Green,
-82.5,Arabica,Mexico,300.5,Other,Washed / Wet,7.42,7.58,7.5,7.67,7.25,7.5,10.0,10.0,10.0,7.58,82.50,0.0,Green,Low
+82.5,Arabica,Mexico,,Other,Washed / Wet,7.42,7.58,7.5,7.67,7.25,7.5,10.0,10.0,10.0,7.58,82.50,0.0,Green,
 82.5,Arabica,Brazil,1260.0,Yellow Bourbon,Semi-washed / Semi-pulped,7.42,7.5,7.67,7.33,7.42,7.67,10.0,10.0,10.0,7.5,82.50,0.11,Bluish-Green,Medium
 82.5,Arabica,Guatemala,4300.0,Bourbon,Washed / Wet,7.83,7.42,7.33,7.67,7.42,7.5,10.0,10.0,10.0,7.33,82.50,0.12,Green,
 82.5,Arabica,Colombia,1750.0,Caturra,Washed / Wet,7.5,7.5,7.42,7.42,7.58,7.58,10.0,10.0,10.0,7.5,82.50,0.11,Green,High
@@ -725,7 +725,7 @@ score,Species,Country of Origin,Altitude (m),Variety,Processing Method,Aroma,Fla
 82.33,Arabica,Colombia,1750.0,Caturra,Washed / Wet,7.5,7.42,7.5,7.5,7.5,7.58,10.0,10.0,10.0,7.33,82.33,0.0,Green,High
 82.33,Arabica,Mexico,1300.0,Typica,Washed / Wet,7.67,7.5,7.42,7.5,7.42,7.42,10.0,10.0,10.0,7.42,82.33,0.12,Green,Medium
 82.33,Arabica,Costa Rica,,,Washed / Wet,7.92,7.58,7.25,7.75,7.92,7.58,9.33,9.33,10.0,7.67,82.33,0.0,Green,
-82.33,Arabica,Guatemala,127.75,Bourbon,Washed / Wet,7.67,7.5,7.33,7.67,7.5,7.33,10.0,10.0,10.0,7.33,82.33,0.11,Green,Low
+82.33,Arabica,Guatemala,,Bourbon,Washed / Wet,7.67,7.5,7.33,7.67,7.5,7.33,10.0,10.0,10.0,7.33,82.33,0.11,Green,
 82.33,Arabica,Mexico,441.0,Typica,Natural / Dry,7.58,7.67,7.58,7.33,7.0,7.58,10.0,10.0,10.0,7.58,82.33,0.15,,Low
 82.33,Arabica,Mexico,1170.0,Bourbon,Washed / Wet,7.67,7.58,7.5,7.58,7.5,7.5,10.0,10.0,10.0,7.0,82.33,0.13,Green,Low
 82.33,Arabica,Guatemala,4300.0,Bourbon,Washed / Wet,7.5,7.67,7.33,7.5,7.33,7.5,10.0,10.0,10.0,7.5,82.33,0.1,Green,
@@ -767,7 +767,7 @@ score,Species,Country of Origin,Altitude (m),Variety,Processing Method,Aroma,Fla
 82.17,Arabica,Brazil,,Mundo Novo,Natural / Dry,7.58,7.5,7.42,7.25,7.5,7.42,10.0,10.0,10.0,7.5,82.17,0.12,Green,
 82.17,Arabica,"Tanzania, United Republic Of",1700.0,Other,Washed / Wet,7.75,7.42,7.42,7.58,7.33,7.42,10.0,10.0,10.0,7.25,82.17,0.12,Green,High
 82.17,Arabica,Mexico,1100.0,Other,Washed / Wet,7.42,7.33,7.17,7.42,7.33,8.17,10.0,10.0,10.0,7.33,82.17,0.12,Green,Low
-82.17,Arabica,Mexico,200.5,Other,Washed / Wet,7.5,7.5,7.33,7.42,7.5,7.42,10.0,10.0,10.0,7.5,82.17,0.1,,Low
+82.17,Arabica,Mexico,,Other,Washed / Wet,7.5,7.5,7.33,7.42,7.5,7.42,10.0,10.0,10.0,7.5,82.17,0.1,,
 82.17,Arabica,Taiwan,1200.0,Typica,Other,7.5,7.5,7.5,7.5,7.5,7.5,10.0,10.0,10.0,7.17,82.17,0.11,Green,Low
 82.17,Arabica,Taiwan,800.0,Typica,Washed / Wet,7.67,7.5,7.5,7.17,7.17,7.58,10.0,10.0,10.0,7.58,82.17,0.0,Green,Low
 82.17,Arabica,Colombia,1750.0,Caturra,Washed / Wet,7.33,7.25,7.25,7.58,7.75,7.5,10.0,10.0,10.0,7.5,82.17,0.0,Bluish-Green,High
@@ -822,7 +822,7 @@ score,Species,Country of Origin,Altitude (m),Variety,Processing Method,Aroma,Fla
 81.92,Arabica,Guatemala,1550.0,Catuai,Washed / Wet,7.58,7.58,7.17,7.83,7.17,7.33,10.0,10.0,10.0,7.25,81.92,0.11,Green,Medium
 81.92,Arabica,"Tanzania, United Republic Of",1877.0,Other,Washed / Wet,7.33,7.33,7.33,7.42,7.5,7.58,10.0,10.0,10.0,7.42,81.92,0.12,Green,High
 81.92,Arabica,Nicaragua,,,Washed / Wet,7.58,7.42,7.25,7.17,7.5,7.67,10.0,10.0,10.0,7.33,81.92,0.12,Green,
-81.92,Arabica,Zambia,125.5,SL28,Washed / Wet,7.67,7.08,7.42,7.33,7.75,7.42,10.0,10.0,10.0,7.25,81.92,0.0,,Low
+81.92,Arabica,Zambia,,SL28,Washed / Wet,7.67,7.08,7.42,7.33,7.75,7.42,10.0,10.0,10.0,7.25,81.92,0.0,,
 81.92,Arabica,Honduras,,,Washed / Wet,7.42,7.33,7.33,7.58,7.33,7.5,10.0,10.0,10.0,7.42,81.92,0.11,Green,
 81.92,Arabica,Taiwan,1000.0,Typica,Other,7.5,7.5,7.42,7.25,7.5,7.5,10.0,10.0,10.0,7.25,81.92,0.11,Green,Low
 81.92,Arabica,Mexico,1300.0,Bourbon,Washed / Wet,7.58,7.5,7.25,7.58,7.5,7.25,10.0,10.0,10.0,7.25,81.92,0.12,Green,Medium
@@ -887,7 +887,7 @@ score,Species,Country of Origin,Altitude (m),Variety,Processing Method,Aroma,Fla
 81.67,Arabica,Taiwan,150.0,Typica,Semi-washed / Semi-pulped,7.5,7.5,7.5,7.25,7.42,7.25,10.0,10.0,10.0,7.25,81.67,0.11,Green,Low
 81.67,Arabica,Taiwan,750.0,Typica,Washed / Wet,7.58,7.42,7.33,7.42,7.33,7.33,10.0,10.0,10.0,7.25,81.67,0.11,Green,Low
 81.67,Arabica,Mexico,1400.0,Typica,Washed / Wet,7.5,7.42,7.08,7.58,7.33,7.33,10.0,10.0,10.0,7.42,81.67,0.12,Green,Medium
-81.67,Arabica,Guatemala,127.75,Bourbon,Washed / Wet,7.5,7.67,7.33,7.33,7.33,7.33,10.0,10.0,10.0,7.17,81.67,0.11,Green,Low
+81.67,Arabica,Guatemala,,Bourbon,Washed / Wet,7.5,7.67,7.33,7.33,7.33,7.33,10.0,10.0,10.0,7.17,81.67,0.11,Green,
 81.67,Arabica,Mexico,1650.0,Typica,Washed / Wet,7.25,7.67,7.58,7.67,7.67,7.58,8.67,10.0,10.0,7.58,81.67,0.13,Green,High
 81.67,Arabica,Mexico,1400.0,Bourbon,Washed / Wet,7.67,7.25,7.17,7.75,7.5,7.25,10.0,10.0,10.0,7.08,81.67,0.11,Green,Medium
 81.67,Arabica,Mexico,1200.0,Bourbon,Washed / Wet,7.5,7.42,7.33,7.42,7.42,7.42,10.0,10.0,10.0,7.17,81.67,0.11,Green,Low
@@ -975,7 +975,7 @@ score,Species,Country of Origin,Altitude (m),Variety,Processing Method,Aroma,Fla
 81.17,Arabica,Mexico,1200.0,Caturra,Washed / Wet,7.75,7.58,7.08,7.25,7.08,7.25,10.0,10.0,10.0,7.17,81.17,0.12,Green,Low
 81.17,Arabica,Costa Rica,1300.0,Caturra,Washed / Wet,7.5,7.5,7.33,7.17,7.08,7.17,10.0,10.0,10.0,7.42,81.17,0.11,Bluish-Green,Medium
 81.17,Arabica,Honduras,1450.0,Catuai,Natural / Dry,7.42,7.33,7.0,7.42,7.33,7.33,10.0,10.0,10.0,7.33,81.17,0.13,Green,Medium
-81.17,Arabica,Thailand,225.5,Caturra,Washed / Wet,6.83,7.42,7.42,7.17,7.5,7.42,10.0,10.0,10.0,7.42,81.17,0.12,Blue-Green,Low
+81.17,Arabica,Thailand,,Caturra,Washed / Wet,6.83,7.42,7.42,7.17,7.5,7.42,10.0,10.0,10.0,7.42,81.17,0.12,Blue-Green,
 81.17,Arabica,Philippines,1200.0,Typica,Natural / Dry,7.25,7.25,7.25,7.08,7.58,7.5,10.0,10.0,10.0,7.25,81.17,0.0,,Low
 81.17,Arabica,"Tanzania, United Republic Of",1550.0,Bourbon,Washed / Wet,7.58,7.17,7.17,7.33,7.33,7.25,10.0,10.0,10.0,7.33,81.17,0.12,Bluish-Green,Medium
 81.17,Arabica,Malawi,995.0,Caturra,Washed / Wet,7.58,7.25,7.33,7.08,7.33,7.33,10.0,10.0,10.0,7.25,81.17,0.12,Green,Low
@@ -1022,7 +1022,7 @@ score,Species,Country of Origin,Altitude (m),Variety,Processing Method,Aroma,Fla
 80.92,Arabica,Brazil,1200.0,Yellow Bourbon,Natural / Dry,7.25,7.33,7.25,7.25,7.25,7.33,10.0,10.0,10.0,7.25,80.92,0.12,Green,Low
 80.92,Arabica,Taiwan,550.0,Typica,Washed / Wet,7.92,7.67,7.33,7.08,7.08,7.08,10.0,10.0,10.0,6.75,80.92,0.09,Green,Low
 80.92,Arabica,Brazil,1100.0,Bourbon,Natural / Dry,7.17,7.42,7.17,7.25,7.25,7.33,10.0,10.0,10.0,7.33,80.92,0.1,,Low
-80.92,Arabica,Nicaragua,367.0,Caturra,Washed / Wet,7.33,7.08,7.25,7.0,7.5,7.42,10.0,10.0,10.0,7.33,80.92,0.1,Green,Low
+80.92,Arabica,Nicaragua,,Caturra,Washed / Wet,7.33,7.08,7.25,7.0,7.5,7.42,10.0,10.0,10.0,7.33,80.92,0.1,Green,
 80.92,Arabica,Guatemala,5000.0,Pacas,Washed / Wet,7.58,7.42,6.92,7.5,7.25,7.17,10.0,10.0,10.0,7.08,80.92,0.12,Green,
 80.92,Arabica,Taiwan,900.0,Typica,Washed / Wet,7.42,7.25,7.25,7.25,7.25,7.25,10.0,10.0,10.0,7.25,80.92,0.11,,Low
 80.92,Arabica,Taiwan,688.0,Typica,Other,7.25,7.17,7.08,7.08,7.08,8.08,10.0,10.0,10.0,7.17,80.92,0.11,Green,Low
@@ -1123,7 +1123,7 @@ score,Species,Country of Origin,Altitude (m),Variety,Processing Method,Aroma,Fla
 80.08,Arabica,Mexico,1300.0,Typica,Washed / Wet,7.25,7.08,7.0,7.17,7.33,7.17,10.0,10.0,10.0,7.08,80.08,0.14,Green,Medium
 80.0,Arabica,Nicaragua,1250.0,Caturra,Washed / Wet,7.33,7.08,6.92,7.08,7.42,7.17,10.0,10.0,10.0,7.0,80.00,0.1,Green,Medium
 80.0,Arabica,Myanmar,3845.0,Other,Washed / Wet,7.17,7.33,7.0,7.42,7.17,7.0,10.0,10.0,10.0,6.92,80.00,0.0,Green,
-80.0,Arabica,Mexico,200.5,Typica,Washed / Wet,7.58,7.75,7.42,7.5,7.5,7.5,8.67,8.67,10.0,7.42,80.00,0.0,Green,Low
+80.0,Arabica,Mexico,,Typica,Washed / Wet,7.58,7.75,7.42,7.5,7.5,7.5,8.67,8.67,10.0,7.42,80.00,0.0,Green,
 80.0,Arabica,Taiwan,250.0,Typica,Washed / Wet,7.25,7.25,7.25,7.0,7.25,7.0,10.0,10.0,10.0,7.0,80.00,0.11,Green,Low
 80.0,Arabica,Thailand,800.0,,Washed / Wet,7.33,6.67,7.08,7.42,7.42,7.08,10.0,10.0,10.0,7.0,80.00,0.0,Green,Low
 80.0,Arabica,Mexico,1250.0,Typica,Washed / Wet,7.25,7.25,7.08,7.17,7.33,7.33,9.33,10.0,10.0,7.25,80.00,0.12,Green,Medium
@@ -1167,7 +1167,7 @@ score,Species,Country of Origin,Altitude (m),Variety,Processing Method,Aroma,Fla
 79.58,Arabica,Mexico,1250.0,Typica,Washed / Wet,7.08,7.0,6.92,7.33,7.25,7.08,10.0,10.0,10.0,6.92,79.58,0.12,,Medium
 79.58,Arabica,Mexico,1550.0,Caturra,Washed / Wet,7.25,6.92,6.92,7.33,7.25,7.0,10.0,10.0,10.0,6.92,79.58,0.13,Green,Medium
 79.58,Arabica,Colombia,1800.0,,,7.25,7.17,7.0,6.75,7.17,7.33,10.0,10.0,10.0,6.92,79.58,0.1,,High
-79.58,Arabica,Guatemala,177.0,,,7.08,7.0,6.83,7.33,7.25,7.0,10.0,10.0,10.0,7.08,79.58,0.17,,Low
+79.58,Arabica,Guatemala,,,,7.08,7.0,6.83,7.33,7.25,7.0,10.0,10.0,10.0,7.08,79.58,0.17,,
 79.5,Arabica,Nicaragua,1050.0,Caturra,Natural / Dry,6.92,6.92,7.0,7.42,7.25,7.0,10.0,10.0,10.0,7.0,79.50,0.12,Green,Low
 79.5,Arabica,Taiwan,700.0,Typica,Natural / Dry,6.92,7.0,7.17,7.0,7.42,7.0,10.0,10.0,10.0,7.0,79.50,0.0,,Low
 79.5,Arabica,Colombia,1550.0,Caturra,Washed / Wet,7.83,7.5,7.42,7.42,7.67,7.5,10.0,6.67,10.0,7.5,79.50,0.0,Green,Medium
